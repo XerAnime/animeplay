@@ -1,0 +1,65 @@
+.abutton {
+  background-color: #363636;
+  border-radius: 10px;
+  font-size: 30px;
+  border: 0px;
+  color: rgb(138, 136, 252);
+}
+.important {
+  color: yellow;
+}
+
+.white_text {
+  color: white;
+}
+a {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(138, 136, 252);
+}
+h1 {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(138, 136, 252);
+  font-size: 1fr;
+}
+a:link {
+  text-decoration: none;
+  color: rgb(138, 136, 252);
+}
+
+a:visited {
+  color: rgb(138, 136, 252);
+}
+
+/* hover only pc */
+@media screen and (min-width: 600px) {
+  a:link:hover {
+    cursor: pointer;
+  }
+  .abutton:hover {
+    background-color: #191919;
+    background-image: radial-gradient(#303030, var(--secondary-color));
+    cursor: pointer;
+    border: 1px solid var(--main-color);
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #414141;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(138, 136, 252);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(118, 116, 214);
+}
